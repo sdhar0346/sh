@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@100;200;300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+</head>
+<body onload = "slider()">
+    <div class="banner">
+        <div class="slider">
+            <img src="./img/IMG-20170927-WA0038.jpg" id="slideimg">
+        </div>
+        <div class="overlay">
+            <div class="navbar">
+                <!-- <div class="logo">
+                    <img src="./img/20200908_084052.jpg" id="navimg">
+                </div> -->
+                <!-- <div class="menu-icons">
+                    <img src="./img/20200908_084052.jpg" id="m-icon1">
+                    <img src="./img/শরমিন্ 20180407_213457.jpg" id="m-icon2">
+                    <img src="./img/IMG_20200930_013100_084.jpg" id="m-icon3">
+                </div> -->
+            </div>
+            <div class="content">
+                <h1>আমি সেখানে আসছি, আমরা শীঘ্রই এক হব</h1>
+                <!-- <h3>েদ পাীা গে সব জতোল িগীেূ গতত মদসা ূপাীা িদী বহেগলােে োল্ গতত িীাৌহালূ ূূপদজো জতোমাে জতোমাে োল্ দলা িগলা ্োব গতত ৈগূপ বদহী জাীসগেেগদল, কলদৈগলু ৈপোূ বদহ িাাত িজী ,ৈ, গতত ূোতক ূদ বদহী ্ো্, োে বদহ  দলমা োেকা্ সা।</h3> -->
+                <p>After the day's work would love to rest in your arms <br> fall asleep in your fragrance <br> with your face I see last for the day <br> and the first in the morning :-)
+                </p>
+                <!-- <div>
+                    <button type="button">Previous</button>
+                    <button type="button" class="btn-2">Next</button>
+                    
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <script>
+        var slideImg = document.getElementById("slideimg");
+        var images= new Array(
+                "./img/20200908_084052.jpg",
+                "./img/IMG-20170927-WA0038.jpg",
+                "./img/IMG-20171202-WA0006.jpg",
+                "./img/IMG_20200930_013100_084.jpg",
+                "./img/শরমিন্ 20180407_213457.jpg",
+                "./img/IMG-20180907-WA0015.jpg",
+                "./img/IMG-20180913-WA0016.jpg",
+                "./img/IMG-20191221-WA0017.jpg",
+                "./img/শরমিন্ 20171231_213808.jpg",
+                "./img/শরমিন্ 20180404_130505.jpg",
+                "./img/শরমিন্ 20180907_180808.jpg"
+            );
+        var len = images.length;
+        var i = 0;
+
+        function slider(){
+            if (i> len-1){
+                i = 0;
+            }
+            slideImg.src = images[i];
+            i++;
+            setTimeout('slider()', 3000);
+        }
+      
+    </script>
+</body>
+</html>
