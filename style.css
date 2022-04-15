@@ -4,6 +4,9 @@
     font-family: sans-serif;
     /* background-color:rgb(184, 137, 228)  ; */
 }
+body{
+    background-image: url(img/bg10.jpg) ;
+}
 .banner {
     height: 100vh;
     width: 100%;
@@ -103,18 +106,18 @@ text-align: justify;
     font-size: 25px;
     font-style: italic ;
 }
-/* button{
+ button{
     width: 200px;
     padding:15px 0;
     text-align: center;
-    margin: 600px 10px;
+    margin: 10px 10px;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid goldenrod;
     background-color: gold;
     color: blue;
     cursor: pointer;
-    transition: background 1s ;
+    /* transition: background 1s ; */
     font-style: italic;
     font-size: 15px;
 }
@@ -123,6 +126,14 @@ button:hover{
     border: 2px solid goldenrod;
 
 }
+.card{
+    border: 2px solid aqua;
+    margin:25px 25px;
+    height: 200px;
+    width: 40%;
+    border-radius: 15px;
+}
+/*
 .btn-2{
     border : 2px solid goldenrod;
     background: transparent;
@@ -132,3 +143,39 @@ button:hover{
     background: gold;
     
 } */
+
+/*---------------------------- for gallery-------------------- */
+.gallery{
+    margin:100px 50px ;
+
+}
+.gallery img{
+    width:250px;
+    height:250px;
+    padding: 5px;
+    filter:grayscale(100%);
+    transition:1s;
+}
+.gallery img:hover{
+    filter: grayscale(0);
+    transform:scale(1.1);
+}
+
+
+/*----------------- foryou----------- */
+.cardtext {
+    justify-content: center;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.card{
+    display: grid;
+    /* grid-template-columns: repeat(2, auto); */
+    /* grid-template-columns: 300px auto 100px; */
+    /* grid-template-columns: 100px 500px 300px; */
+    height:200px;
+    width:40%;
+    margin: auto;
+}
