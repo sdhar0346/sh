@@ -21,10 +21,10 @@ body{
     top:0;
 }
 #slideimg{
-width: 608px;
+width: 45%;
 height:95%;
 margin-top: 25px;
-margin-left:100px ;
+margin-left:2.5% ;
 border-radius: 15px;
 }
 .overlay{
