@@ -113,7 +113,7 @@ text-align: justify;
     font-style: italic ;
 }
  button{
-    width: 385px;
+    width: 31vw;
     padding:15px 0;
     text-align: center;
     margin: 10px 10px;
@@ -130,13 +130,12 @@ text-align: justify;
 button:hover{
     background-color: transparent;
     border: 2px solid goldenrod;
-
 }
 .card{
     border: 2px solid aqua;
     margin:25px 25px;
-    height: 200px;
-    width: 40%;
+    height: 30vh;
+    width: 40vw;
     border-radius: 15px;
 }
 /*
@@ -154,7 +153,6 @@ button:hover{
 .gallery{
     /* margin:100px 50px ; */
     margin:auto;
-
 }
 .gallery img{
     width: 300px;;
@@ -162,6 +160,7 @@ button:hover{
     padding: 5px;
     filter:grayscale(100%);
     transition:1s;
+    border-radius: 10px;
 }
 .gallery img:hover{
     filter: grayscale(0);
@@ -174,7 +173,7 @@ button:hover{
     justify-content: center;
     text-align: center;
     font-family: cursive;
-    font-size: 30px;
+    font-size: 3vh;
 }
 
 .card{
@@ -182,7 +181,7 @@ button:hover{
     /* grid-template-columns: repeat(2, auto); */
     /* grid-template-columns: 300px auto 100px; */
     /* grid-template-columns: 100px 500px 300px; */
-    height:200px;
-    width:40%;
+    height:20vh;
+    width:50vw;
     margin: auto;
 }
