@@ -9,20 +9,20 @@ body{
 }
 .banner {
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     position: relative;
     overflow: hidden;   
 }
 .slider{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: absolute;
     position: relative;
     top:0;
 }
 #slideimg{
-width: 45%;
-height:95%;
+width: 45vw;
+height: 95vw;
 margin-top: 25px;
 margin-left:2.5% ;
 border-radius: 15px;
