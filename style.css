@@ -1,3 +1,11 @@
+@viewport {
+    width: device-width;
+    zoom: 1.1;
+    min-zoom: 0.4;
+    max-zoom: 2;
+    user-zoom: fixed;
+    }
+
 *{
     margin:0;
     padding: 0;
@@ -21,8 +29,8 @@ body{
     top:0;
 }
 #slideimg{
-width: 45vw;
-height: 95vw;
+width: 45%;
+height: 95%;
 margin-top: 25px;
 margin-left:2.5% ;
 border-radius: 15px;
@@ -184,4 +192,9 @@ button:hover{
     height:20vh;
     width:50vw;
     margin: auto;
+    padding: 10px;
+}
+#card1p{
+    font-family: cursive;
+    font-style: oblique;
 }
