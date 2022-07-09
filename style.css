@@ -180,7 +180,7 @@ and (max-device-width : 1020px) {
     border-radius: 10px;
     }
 }
-.gallery img{
+/*.gallery img{
     
     width: 300px;
     height: 300px;
@@ -188,7 +188,7 @@ and (max-device-width : 1020px) {
     filter:grayscale(100%);
     transition:1s;
     border-radius: 10px;
-}
+}*/
 .gallery img:hover{
     filter: grayscale(0);
     transform:scale(1.1);
