@@ -166,8 +166,11 @@ button:hover{
     /* padding: 1vh 1vh; */
     align-self: auto;
 }
+@media screen {
+    
+}
 .gallery img{
-    width: 45vh;
+    width: 45vw;
     height: 45vh;
     /* width: 300px;
     height: 300px; */
