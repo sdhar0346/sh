@@ -162,18 +162,28 @@ button:hover{
 /*---------------------------- for gallery-------------------- */
 .gallery{
     /* margin:100px 50px ; */
-    margin:1vh 1vh;
+    margin:1vw 1vw;
     /* padding: 1vh 1vh; */
     align-self: auto;
 }
-@media screen {
+/*Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+    .gallery img{
+    width: 45vw;
+    height: 40vh;
     
+    padding: 5px;
+    filter:grayscale(100%);
+    transition:1s;
+    border-radius: 10px;
+    }
 }
 .gallery img{
-    width: 45vw;
-    height: 45vh;
-    /* width: 300px;
-    height: 300px; */
+    
+    width: 300px;
+    height: 300px;
     padding: 5px;
     filter:grayscale(100%);
     transition:1s;
