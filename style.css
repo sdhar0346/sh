@@ -4,6 +4,7 @@
     min-zoom: 0.4;
     max-zoom: 2;
     user-zoom: fixed;
+    height:device-height;
     }
 
 *{
@@ -11,6 +12,7 @@
     padding: 0;
     font-family: sans-serif;
     /* background-color:rgb(184, 137, 228)  ; */
+    /* height:100vh; */
 }
 body{
     background-image: url(img/bg10.jpg) ;
