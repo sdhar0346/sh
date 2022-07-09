@@ -162,11 +162,15 @@ button:hover{
 /*---------------------------- for gallery-------------------- */
 .gallery{
     /* margin:100px 50px ; */
-    margin:auto;
+    margin:1vh 1vh;
+    /* padding: 1vh 1vh; */
+    align-self: auto;
 }
 .gallery img{
-    width: 300px;;
-    height: 300px;
+    width: 45vh;
+    height: 45vh;
+    /* width: 300px;
+    height: 300px; */
     padding: 5px;
     filter:grayscale(100%);
     transition:1s;
