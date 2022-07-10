@@ -169,7 +169,7 @@ button:hover{
 /*Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 1020px) 
-and (max-device-width : 1600px) {
+and (max-device-width : 2340px) {
     .gallery img{
     width: 45vw;
     height: 40vh;
@@ -179,6 +179,10 @@ and (max-device-width : 1600px) {
     transition:1s;
     border-radius: 10px;
     }
+    .gallery img:hover{
+    filter: grayscale(0);
+    transform:scale(1.1);
+}
 }
 /*.gallery img{
     
@@ -188,11 +192,11 @@ and (max-device-width : 1600px) {
     filter:grayscale(100%);
     transition:1s;
     border-radius: 10px;
-}*/
+}
 .gallery img:hover{
     filter: grayscale(0);
     transform:scale(1.1);
-}
+}*/
 
 
 /*----------------- foryou----------- */
