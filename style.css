@@ -173,7 +173,7 @@ and (max-width : 800px)
 
 {
     .gallery img{
-    width: 25vw;
+    width: 45vw;
     height: 25vh;
     
     padding: 1vw ;
