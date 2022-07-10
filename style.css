@@ -167,9 +167,9 @@ button:hover{
     align-self: auto;
 }
 /*Smartphones (portrait and landscape) ----------- */
-/*@media only screen 
-and (min-device-width : 1080px) 
-and (max-device-width : 2340px) {
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 800px) {
     .gallery img{
     width: 45vw;
     height: 40vh;
@@ -183,7 +183,7 @@ and (max-device-width : 2340px) {
     filter: grayscale(0);
     transform:scale(1.1);
 }
-}*/
+}
 .gallery img{
     
     width: 300px;
