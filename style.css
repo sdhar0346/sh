@@ -174,8 +174,7 @@ and (min-width : 300px)
     .gallery img{
     width: 40vw;
     height: 25vh;
-    
-    padding: 1vw ;
+    /*padding: 1vw ;*/
     filter:grayscale(100%);
     transition:1s;
     border-radius: 10px;
