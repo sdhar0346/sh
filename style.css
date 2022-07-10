@@ -168,7 +168,7 @@ button:hover{
 }
 /*Smartphones (portrait and landscape) ----------- */
 @media only screen 
-and (min-device-width : 1020px) 
+and (min-device-width : 1080px) 
 and (max-device-width : 2340px) {
     .gallery img{
     width: 45vw;
