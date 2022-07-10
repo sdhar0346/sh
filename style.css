@@ -165,6 +165,7 @@ button:hover{
     margin:1vw 1vw;*/
     /* padding: 1vh 1vh; */
     align-self: auto;
+    align-items: center;
 }
 /*Smartphones (portrait and landscape) ----------- */
 @media screen 
