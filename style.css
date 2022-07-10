@@ -118,6 +118,7 @@ justify-content: center;
 text-align: justify;
 }
 .content p{
+    padding-top: 35vh;
     font-family: Cedarville, Cursive;
     font-size: 25px;
     font-style: italic ;
