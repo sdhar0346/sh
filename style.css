@@ -172,7 +172,7 @@ and (min-width : 300px)
 
 {
     .gallery img{
-    width: 45vw;
+    width: 40vw;
     height: 25vh;
     
     padding: 1vw ;
