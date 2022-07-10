@@ -186,7 +186,7 @@ and (min-width : 300px)
 }
 }
 @media screen 
-and(min-width :892px){
+and(min-width :800px){
 .gallery img{
     
     /* width: 45vw;
