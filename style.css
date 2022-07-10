@@ -169,7 +169,7 @@ button:hover{
 /*Smartphones (portrait and landscape) ----------- */
 @media screen 
 and (min-width : 200px) 
-and (max-width : 600px) 
+and (max-width : 800px) 
 
 {
     .gallery img{
