@@ -48,7 +48,7 @@ border-radius: 15px;
 .buttons{
     display:flex;
     align-items: center;
-    flex-direction:row-reverse;
+    flex-direction:row;
     margin: auto auto;
 }
 /* .navbar{
