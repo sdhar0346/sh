@@ -167,7 +167,7 @@ button:hover{
     align-self: auto;
 }
 /*Smartphones (portrait and landscape) ----------- */
-@media only screen 
+@media screen 
 and (min-device-width : 300px) 
 and (max-device-width : 800px) {
     .gallery img{
