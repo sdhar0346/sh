@@ -46,9 +46,9 @@ border-radius: 15px;
 }
 
 .buttons{
-    display:flex;
+    display:flex ;
     align-items: center;
-    flex-direction: row;
+    flex-direction:row-reverse;
     margin: auto auto;
 }
 /* .navbar{
