@@ -180,7 +180,7 @@ and (max-width : 600px)
     filter:grayscale(100%);
     transition:1s;
     border-radius: 10px;
-margin-right: 2vw;
+margin: 1vh 1vw;
     }
     .gallery img:hover{
     filter: grayscale(0);
