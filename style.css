@@ -46,7 +46,7 @@ border-radius: 15px;
 }
 
 .buttons{
-    display:flex ;
+    display:flex;
     align-items: center;
     flex-direction:row-reverse;
     margin: auto auto;
@@ -123,7 +123,7 @@ text-align: justify;
     font-style: italic ;
 }
  button{
-    width: 45vw;
+    width: 40vw;
     padding:15px 0;
     text-align: center;
     /*margin: 10px 10px;*/
