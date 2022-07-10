@@ -168,7 +168,7 @@ button:hover{
 }
 /*Smartphones (portrait and landscape) ----------- */
 @media screen 
-and (min-width : 412px) 
+and (min-width : 300px) 
 and (max-width : 892px) 
 
 {
@@ -180,6 +180,7 @@ and (max-width : 892px)
     filter:grayscale(100%);
     transition:1s;
     border-radius: 10px;
+    margin:2vw 2vh;
     }
     .gallery img:hover{
     filter: grayscale(0);
