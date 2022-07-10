@@ -175,7 +175,7 @@ and (min-height : 500px)
 and (max-height: 800px)*/
 {
     .gallery img{
-    width: 35vw;
+    width: 25vw;
     height: 25vh;
     
     padding: 1vw ;
