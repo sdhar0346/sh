@@ -46,7 +46,7 @@ border-radius: 15px;
 }
 
 .buttons{
-    display:block;
+    display:flex;
     align-items: center;
     flex-direction: row;
     margin: auto auto;
