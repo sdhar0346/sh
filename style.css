@@ -167,9 +167,9 @@ button:hover{
     align-self: auto;
 }
 /*Smartphones (portrait and landscape) ----------- */
-@media only screen 
-and (min-device-width : 300px) 
-and (max-device-width : 500px) 
+@media screen 
+and (min-width : 300px) 
+and (max-width : 500px) 
 /*
 and (min-height : 500px)
 and (max-height: 800px)*/
