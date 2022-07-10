@@ -161,8 +161,8 @@ button:hover{
 
 /*---------------------------- for gallery-------------------- */
 .gallery{
-    /* margin:100px 50px ; */
-    margin:1vw 1vw;
+    /* margin:100px 50px ; 
+    margin:1vw 1vw;*/
     /* padding: 1vh 1vh; */
     align-self: auto;
 }
