@@ -118,7 +118,7 @@ justify-content: center;
 text-align: justify;
 }
 .content p{
-    padding-top: 35vh;
+    padding-top: 20vh;
     font-family: Cedarville, Cursive;
     font-size: 25px;
     font-style: italic ;
@@ -127,7 +127,7 @@ text-align: justify;
     width: 40vw;
     padding:15px 0;
     text-align: center;
-    /*margin: 10px 10px;*/
+    margin-left: 7vw;
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid goldenrod;
